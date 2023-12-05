@@ -2,10 +2,10 @@
   width: 100%;
   height: auto;
 
-  &.scroppbar{
+  &-scrollbar{
     bottom: 0;
 
-    &.drag{
+    &-drag{
       background-color: $color-violet;
     }
   }

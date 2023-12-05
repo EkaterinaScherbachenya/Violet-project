@@ -4,9 +4,9 @@
   align-items: center;
 }
 
-// @mixin transition {
-//   transition: all 0.3s;
-// }
+@mixin transition {
+  transition: all 0.3s;
+}
 
 @mixin alignment{
   position: absolute;

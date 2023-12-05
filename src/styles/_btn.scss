@@ -1,5 +1,5 @@
 .btn {
-  
+  @include transition();
 
   display: inline-block;
   width: 140px;
@@ -22,25 +22,28 @@
   &:hover {
     background-color: $primary-color;
     box-shadow: 0 5px 10px rgba(77, 34, 104, 0.4);
+
+    transform: translateY(-3px);
   }
-  &_more {
+
+  &__more {
     background-color: $color-gray;
   }
 
-  &_add {
+  &__add {
     background-color: $color-green;
   }
 
-  &_view {
+  &__view {
     background-color: $color-violet--darken;
   }
 
-  &_fixed {
+  &__fixed {
     position: fixed;
     bottom: 2rem;
     left: 0;
 
-    &top {
+    &_top {
       position: fixed;
       top: 2rem;
       right: 0;
