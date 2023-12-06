@@ -17,10 +17,10 @@
 
   color: $color-white;
   background-color: $color-black;
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 1);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 
   &:hover {
-    background-color: $primary-color;
+    border-color: $primary-color;
     box-shadow: 0 5px 10px rgba(77, 34, 104, 0.4);
 
     transform: translateY(-3px);
