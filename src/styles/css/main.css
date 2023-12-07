@@ -357,6 +357,18 @@ body {
   transform: translateY(-5px);
   box-shadow: 0 5px 10px rgba(77, 34, 104, 0.4);
 }
+.section__block-btn {
+  text-align: center;
+}
+.section__block-link {
+  list-style: none;
+  margin: 3rem 0 0 8rem;
+}
+.section__block-link-reset {
+  text-decoration: overline;
+  color: #ce3192;
+  font-size: 12px;
+}
 .section__image {
   display: flex;
   justify-content: center;

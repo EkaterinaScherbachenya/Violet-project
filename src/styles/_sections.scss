@@ -33,13 +33,27 @@
 
       text-align: center;
 
-      &:hover{
+      &:hover {
         cursor: pointer;
 
         transform: translateY(-5px);
         box-shadow: 0 5px 10px rgba(77, 34, 104, 0.4);
       }
+    }
 
+    &-btn {
+      text-align: center;
+    }
+
+    &-link {
+      list-style: none;
+      margin: 3rem 0 0 8rem;
+
+      &-reset {
+        text-decoration: overline;
+        color: $color-violet;
+        font-size: $font-12;
+      }
     }
   }
 
